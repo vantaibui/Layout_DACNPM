@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font: {
+    size: 16px;
+    weight: 500;
+  }
+  line-height: 1.43;
+  text-decoration: none;
+  list-style: none;
+  ::selection {
+    color: black;
+  }
+}
+
+:root {
+  --color-main: #1a202e;
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../Asserts/Css/style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="sidebar-toggle" />
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-flex">
+          <img
+            width="40px"
+            src="../Asserts/Images/Admin/admin.jpg"
+            alt="admin"
+          />
+          <div class="brand-ions">
+            <span class="fa fa-bell"> </span>
+            <span class="fa fa-user-circle"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-main">
+        <div class="sidebar-user">
+          <img src="../Asserts/Images/Admin/user.png" alt="user" />
+          <div class="info">
+            <h3>Adam Johnson</h3>
+            <span>vantaibui92@gmail.com</span>
+          </div>
+        </div>
+
+        <div class="sidebar-menu">
+          <!-- Dashboard -->
+          <div class="menu-head">
+            <span class="heading">Dashboard</span>
+          </div>
+          <ul>
+            <li>
+              <a href=""> <span class="fa fa-balance-scale"></span>Finance </a>
+            </li>
+            <li>
+              <a href=""> <span class="fa fa-chart-pie"></span>Analytics </a>
+            </li>
+          </ul>
+
+          <!-- Application -->
+          <div class="menu-head">
+            <span class="heading">Application</span>
+          </div>
+          <ul>
+            <li>
+              <a href=""> <span class="fa fa-user-clock"></span>Manage user </a>
+            </li>
+            <li>
+              <a href=""> <span class="fa fa-list"></span>Manage category </a>
+            </li>
+            <li>
+              <a href=""> <span class="fa fa-gift"></span>Manage product </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div class="main-content">
+      <header>
+        <div class="menu-toggle">
+          <label for="sidebar-toggle">
+            <span id="search" class="fa fa-bars"></span>
+          </label>
+        </div>
+
+        <div class="header-icons">
+          <span class="fa fa-search"></span>
+          <span class="fa fa-bookmark"></span>
+          <span class="fa fa-sms"></span>
+        </div>
+      </header>
+
+      <main>
+        <div class="page-header">
+          <div class="heading">
+            <h1>Analytics Dashboard</h1>
+            <small
+              >Monitor key metrics. Check reporting and review insights</small
+            >
+          </div>
+
+          <div class="header-actions">
+            <button>
+              <span class="fa fa-file-export">Export</span>
+            </button>
+            <button>
+              <span class="fa fa-tools">Setting</span>
+            </button>
+          </div>
+        </div>
+        <!-- Cards -->
+        <div class="cards">
+          <div class="card-single">
+            <div class="card-flex">
+              <div class="card-info">
+                <div class="card-head">
+                  <span>Purchase</span>
+                  <small>Number of purchase</small>
+                </div>
+                <h2>17.663</h2>
+                <small>2% less purchase</small>
+              </div>
+              <div class="card-chart success">
+                <span class="fa fa-chart-line"></span>
+              </div>
+            </div>
+          </div>
+          <div class="card-single">
+            <div class="card-flex">
+              <div class="card-info">
+                <div class="card-head">
+                  <span>Unique visitors</span>
+                  <small>Number of visitors</small>
+                </div>
+                <h2>17.663</h2>
+                <small>2% less visitor</small>
+              </div>
+              <div class="card-chart danger">
+                <span class="fa fa-chart-line"></span>
+              </div>
+            </div>
+          </div>
+          <div class="card-single">
+            <div class="card-flex">
+              <div class="card-info">
+                <div class="card-head">
+                  <span>Refunds</span>
+                  <small>Value of refund orders</small>
+                </div>
+                <h2>$4, 523.11</h2>
+                <small>2% less refund</small>
+              </div>
+              <div class="card-chart yellow">
+                <span class="fa fa-chart-line"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- product-grid -->
+        <div class="product-grid">
+          <div class="analytics-card">
+            <div class="analytics-head">
+              <h2>Actions needed</h2>
+              <span class="fa fa-ellipsis-h"></span>
+            </div>
+            <div class="analytics-chart">
+              <div class="chart-circle">
+                <h1>74%</h1>
+              </div>
+              <div class="analytics-note">
+                <small
+                  >Note: Current sprint requires stakeholders meeting to reach
+                  conclusion</small
+                >
+              </div>
+              <div class="analytics-btn">
+                <button>Generate report</button>
+              </div>
+            </div>
+          </div>
+          <div class="products">
+            <h3>
+              Products
+              <small
+                >see all products <span class="fa fa-arrow-right"></span
+              ></small>
+            </h3>
+            <div class="table-responsive">
+              <table class="products__table">
+                <tbody>
+                  <tr class="table">
+                    <td>
+                      <div><span class="indicator even"></span></div>
+                    </td>
+                    <td>
+                      <div>Customer experience designer</div>
+                    </td>
+                    <td>
+                      <div>Design</div>
+                    </td>
+                    <td>
+                      <div>Copenhagen Dk.</div>
+                    </td>
+                    <td>
+                      <div>Posted 6 days ago.</div>
+                    </td>
+                    <td>
+                      <div>
+                        <button>8 applicants</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div><span class="indicator"></span></div>
+                    </td>
+                    <td>
+                      <div>Customer experience designer</div>
+                    </td>
+                    <td>
+                      <div>Design</div>
+                    </td>
+                    <td>
+                      <div>Copenhagen Dk.</div>
+                    </td>
+                    <td>
+                      <div>Posted 6 days ago.</div>
+                    </td>
+                    <td>
+                      <div>
+                        <button>8 applicants</button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div><span class="indicator"></span></div>
+                    </td>
+                    <td>
+                      <div>Customer experience designer</div>
+                    </td>
+                    <td>
+                      <div>Design</div>
+                    </td>
+                    <td>
+                      <div>Copenhagen Dk.</div>
+                    </td>
+                    <td>
+                      <div>Posted 6 days ago.</div>
+                    </td>
+                    <td>
+                      <div>
+                        <button>8 applicants</button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

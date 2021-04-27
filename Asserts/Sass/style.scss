@@ -10,6 +10,10 @@
 // Admin
 @import "../Sass/Pages/Admin/sidebar";
 @import "../Sass/Pages/Admin/main-content";
+// Seller
+@import "../Sass/Pages/Seller/sidebar-seller";
+@import "../Sass/Pages/Seller/main-content-seller";
+@import "../Sass/Layout/Responsive/Seller/home-seller";
 
 // Components
 @import "./Components/button";

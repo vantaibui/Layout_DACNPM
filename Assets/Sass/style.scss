@@ -14,6 +14,18 @@
 @import "../Sass/Pages/Seller/sidebar-seller";
 @import "../Sass/Pages/Seller/main-content-seller";
 @import "../Sass/Layout/Responsive/Seller/home-seller";
+// User
+@import "../Sass/Layout/User/header";
+@import "../Sass/Layout/User/footer";
 
 // Components
 @import "./Components/button";
+
+// Pages
+@import "../Sass/Pages/User/app-container";
+@import "../Sass/Pages/User/detail";
+@import "../Sass//Pages/User/authentication-form";
+@import "../Sass/Pages/User/shop-detail";
+@import "../Sass/Pages/User/cart";
+@import "../Sass/Pages/User/payment";
+@import "../Sass/Pages/User/product-detail";
